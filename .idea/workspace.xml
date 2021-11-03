@@ -23,6 +23,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -39,6 +40,7 @@
       <option name="presentableId" value="Default" />
       <updated>1635839926194</updated>
       <workItem from="1635839956925" duration="196000" />
+      <workItem from="1635950084819" duration="708000" />
     </task>
     <servers />
   </component>
