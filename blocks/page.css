@@ -5,8 +5,10 @@
     background-color: #2A2C2F;
     color: white;
     padding: 0;   
-    min-width: 1280px;
-    max-width: 1024px; 
+    width: 1024px;
+    
     margin: 0 auto;
     display: block;      
 }
+
+
