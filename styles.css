@@ -99,3 +99,20 @@
     font-size: 12px;
     line-height: 18px;
 }
+
+.card__image {
+    width: 440px;
+    height: 440px;
+}
+
+.card__title {
+    margin: 0 0 48px 0;
+}
+
+.card__paragraph {
+    margin:0;
+}
+
+.__card {
+    display: flex;
+}
