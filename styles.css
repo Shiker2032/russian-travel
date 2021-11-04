@@ -147,3 +147,64 @@
 .card__website {
     
 }
+
+.footer {
+    margin-left: 48px;
+    margin-right: 48px;
+    display: flex;
+    justify-content: space-between;    
+    position: relative;
+    margin-top: 100px;
+    
+}
+
+.footer__link {
+    margin-right: 18px;
+}
+
+.footer__copyright {
+    margin: 0;
+}
+
+.footer__link-container {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 24px;
+    
+}
+
+.cover {
+    margin-top: 100px;
+    width: 1024px;
+    height: 640px;
+
+}
+
+.cover__background {
+    background-image: url(./images/cover-trains.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+.cover__title {
+    text-align: center;
+    margin: 0 auto;
+    
+    width: 560px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+}
+
+.cover__subtitle {
+    width: 360px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    margin: auto;
+    margin-top: 32px;
+}
