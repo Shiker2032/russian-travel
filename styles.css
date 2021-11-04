@@ -103,11 +103,13 @@
 
 
 .card__image {
-    width:90%;
+    width:400px;
+    height: 400px;
 }
 
 .__card {
-    margin-top: 30px;
+    margin-top: 80px;
+   
     display: flex;
 }
 
@@ -116,5 +118,32 @@
 }
 
 .places {
+    
+}
+
+.card__paragraph {
+    margin:0;
+   
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+}
+
+.card__right-side {
+    margin-top: 100px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.card__heading {
+    margin:0;
+    margin-bottom: 48px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+}
+
+.card__website {
     
 }
