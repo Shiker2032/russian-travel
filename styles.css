@@ -32,12 +32,12 @@
     width: 928;
     height: 942;
     display: grid;
-    grid-template-columns: repeat(3, minmax(min-content, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap:14px;
 }
 
 .photo-grid__item {
-  max-width: 100%;
+  max-width: 300px;
   max-height: 100%;
  
   object-fit: cover;
