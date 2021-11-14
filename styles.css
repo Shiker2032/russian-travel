@@ -10,9 +10,9 @@ a {
 .page {
     box-sizing: border-box;    
     font-family: "Inter", "Arial", sans-serif;   
-    background-color: #2A2C2F;
+    
     color: white;
-    padding: 0;   
+    
     max-width: 1280px;
     margin: 0 auto;     
 }
@@ -148,25 +148,25 @@ a {
         .photo-grid {
             display: grid;            
             justify-content: center;
-            margin: 92px 48px 0 48px;        
+            margin: 92px 0 0;        
             grid-template-columns: repeat(auto-fit, 284px);
             gap: 16px;
         } 
 
-@media (max-width: 1064px) {
+@media (max-width: 1183px) {
     .photo-grid {
         grid-template-columns: repeat(auto-fit, 300px);
         gap: 14px;
     }
 }
-@media (max-width: 798px) {
+@media (max-width: 927px) {
     .photo-grid {
         margin: 88px 24px 0 24px;
         grid-template-columns: repeat(auto-fit, 352px);
         gap: 16px;
     }
 }
-@media (max-width: 360px) {
+@media (max-width: 719px) {
     .photo-grid {
         margin: 64px 16px 0 16px;
         grid-template-columns: repeat(auto-fit, 288px);
@@ -353,91 +353,38 @@ a {
             opacity: 0.5;
         }
 
+       
 
-
-
-
-
-
-
-
-
-
-
-
-        
 
 .place__title {
-    grid-area: title;
     margin: 0;
-    max-width: 460px;    
+    width: 440px;    
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
 }
 
-@media (max-width: 1064px) {
-    .place__title {
-        margin: 0 32px 48px 0px;
-        max-width: 340px;
-    }
-}
-
-@media (max-width: 790px) {
-    .place__title {
-        font-size: 42px;
-        line-height: 46px;
-        margin: 0 28px 48px 0px;
-    }
-}
-
-@media (max-width: 360px) {
-    .place__title {
-        font-size: 32px;
-        line-height: 35px;
-    }
-}
-
 .places {
-    margin: 108px 148px 0 141px;
-}
-@media (max-width: 1064px) {
-    .places {
-         margin: 92px 48px 0 48px;
-    }
-}
-@media (max-width: 790px) {
-    .places {
-         margin: 88px 24px 0 24px;
-    }
-}
-}
-@media (max-width: 360px) {
-    .places {
-         margin: 88px 0 0 0;
-    }
+  margin: 0 auto;
+  padding: 92px 0 0;
+  max-width: 984px;
+  width: 100%;
 }
 
-
-
+.place {
+    max-width: 984px;
+    width: 100%;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 460px auto;
+  column-gap: 40px;
+  row-gap: 48px;
+}
 
 .place__image {
-    grid-area: img;
-    max-width: 460px;
-    object-fit: cover;
-    margin: 48px 40px 0 0;    
-}
-@media (max-width: 1064px) {
-    .place__image {
-        max-width: 440px;
-        margin: 0px 32px 0 0;
-    }
-}
-@media (max-width: 790px) {
-    .place__image {
-        max-width: 340px;
-        margin: 0px 28px 0 0;
-    }
+    width: 460px;
+    object-fit: cover;      
 }
 
 .website__url {
@@ -450,75 +397,40 @@ a {
 
 .website__link {
     color: white;
+    margin:0;
     font-weight: normal;
     font-size: 18px;
     line-height: 29px;
 }
 
 .place__paragraph {
-    margin: 48px 0 26px 0;
+    margin: 0 0 26px;
     max-width: 484px;
     font-weight: normal;
     font-size: 18px;
-    line-height: 29px;
-    margin-bottom: 26px;
-    
-    
+    line-height: 29px;    
 }
 .place__paragraph:last-child {
     margin: 0;
 }
-@media (max-width: 1064px) {
-    .place__paragraph {
-        
-        max-width: 456px;
-    }
-}
-@media (max-width: 790px) {
-    .place__paragraph {
-        margin: 48px 0 25px 0;
-        max-width: 352px;
-        font-size: 16px;
-        line-height: 29px;
-    }
+
+
+.website-wrapper {  
+    max-width: 456px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
 }
 
-.place {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);    
+
+.body {
+    background-color: #2A2C2F;
+    padding: 0;   
+    margin: 0;
 }
 
-@media (max-width: 360px) {
-    .place {
-        grid-template-columns: repeat(1, 1fr);  
-        grid-template-areas: 
-            "title"
-            "web"
-            "img"
-            "text1"
-            "text2"
-    }
-}
-
-.place__left-container {
-    
-}
-
-.place__rigth-container {
+.content {
     display: flex;
     flex-flow: column;
     justify-content: center;
-}
-
-.website {
-    grid-area: web;
-    max-width: 456px;
-}
-
-.pos-1 {
-    grid-area: text1
-}
-
-.pos-2 {
-    grid-area: "text2"
 }
