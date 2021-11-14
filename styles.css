@@ -367,7 +367,7 @@ a {
 .place {
     max-width: 984px;
     width: 100%;
-  margin: 0 auto;
+  margin: 0 auto 64px;
   padding: 0;
   display: grid;
   grid-template-columns: 460px auto;
