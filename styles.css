@@ -272,7 +272,7 @@ a {
 
         .cover {
             color: white;           
-            margin: 93px 48px 0 48px;
+            margin: 93px auto 0;
             background-image: url(./images/cover-trains.jpg);
             background-size: cover;
             overflow: hidden;
@@ -320,17 +320,18 @@ a {
         }
 @media (max-width: 600px) {
     .cover__title {
-        width: 288px;
+        width: 250px;
         font-size: 32px;
         line-height: 35px;
     }
 }
 
 
+
         .cover__subtitle {
             margin: 0;
             margin-top: 32px;
-            width: 600px;
+            width: 360px;
             height: min-content;
             text-align: center;
             font-weight: normal;
@@ -340,6 +341,7 @@ a {
 @media (max-width: 600px) {
     .cover__subtitle {
         width: 288px;
+        margin-top: 15px;
     }
 }
 
