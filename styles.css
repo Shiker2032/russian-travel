@@ -2,24 +2,7 @@
     outline: 1px solid red;
 }       
 
-.intro {
-    margin: 92px 442px 0 148px;
-}
-@media (max-width: 1064px) {
-    .intro {
-        margin: 92px 286px 0 48px;
-    }
-}
-@media (max-width: 798px) {
-    .intro {
-        margin: 88px 24px 0 24px;
-    }
-}
-@media (max-width: 600px) {
-    .intro {
-        margin: 64px 16px 0 16px;
-    }
-}
+
 
 
         .photo-grid {
@@ -74,45 +57,11 @@
         width: 288px;
         height: 216px;
     }
-}
+}        
 
+        
 
-
-        .intro__title {
-            max-width: 100%;
-            height: min-content;
-            margin: 0;
-            font-weight: 900;
-            font-size: 54px;
-            line-height: 58px;
-        }
-
-        @media (max-width: 400px) {
-            .intro__title {
-                font-weight: 900;
-                font-size: 32px;
-                line-height: 35px;
-            }
-        }
-
-        .intro__subtitle {
-            margin: 40px 0 0 0;
-            max-width: 100%;
-            height: min-content;
-            font-weight: normal;
-            font-size: 16px;
-            line-height: 26px;
-        }
-
-        .intro__list {
-            max-width: 100%;
-            height: min-content;
-            list-style: none;
-            margin: 33px 0 0 0;
-            padding: 0;
-            font-size: 12px;
-            line-height: 18px;
-        }
+        
 
         
 
