@@ -1,0 +1,9 @@
+.link-list__item {
+    margin-right: 18px;
+}
+
+@media (max-width: 767px) {
+    .link-list__item {
+        margin: 0 0 32px;
+    }
+}

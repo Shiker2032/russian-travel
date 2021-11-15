@@ -1,0 +1,16 @@
+ .footer__link-list{
+     margin: 0;
+     display: flex;
+     align-items: flex-end;
+     padding-bottom: 24px;
+     list-style: none;
+}
+@media (max-width: 797px) {
+    .footer__link-wrapper {
+        width: 158px;
+        flex-flow: column;
+        align-items: baseline;
+        padding: 0;
+        margin-bottom: 48px;
+    }
+}
