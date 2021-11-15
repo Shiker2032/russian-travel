@@ -7,15 +7,7 @@ a {
 }
 
 
-.page {
-    box-sizing: border-box;    
-    font-family: "Inter", "Arial", sans-serif;   
-    
-    color: white;
-    
-    max-width: 1280px;
-    margin: 0 auto;     
-}
+
 
 
 .header {
@@ -34,20 +26,11 @@ a {
 }
 
 
-.header__lang-link_separator {
-    position: absolute;
-    right: 0;
-}
-.header__lang-link {
-    margin: 0;
-    margin-right: 18px;
-    color: white;
-    text-decoration: underline;
-}
 
-.header__lang-link:last-child {
-    margin-right: 0;
-}
+
+
+
+
 
 .lead {
     display: flex;
@@ -374,19 +357,7 @@ a {
         width: 288px;
         margin-top: 15px;
     }
-}
-
-
-        .link {
-            text-decoration: none;
-            transition: 0.3s linear;
-        }
-
-        .link:hover {
-            opacity: 0.5;
-        }
-
-       
+}   
 
 
 
@@ -514,11 +485,7 @@ a {
 }
 
 
-.body {
-    background-color: #2A2C2F;
-    padding: 0;   
-    margin: 0;
-}
+
 
 .content {
     display: flex;
