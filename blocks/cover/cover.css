@@ -1,12 +1,13 @@
 .cover {
-    color: white;           
+    color: white;
     margin: 93px auto 0;
     background-image: url(./cover-trains.jpg);
     background-size: cover;
     overflow: hidden;
     width: 1184px;
-    height: 740px;           
+    height: 740px;
 }
+
 @media (max-width: 1279px) {
     .cover {
         margin: 93px 0 0 0;
@@ -14,12 +15,14 @@
         height: 640px;
     }
 }
+
 @media (max-width: 1023px) {
     .cover {
         width: 768px;
         height: 480px;
     }
 }
+
 @media (max-width: 767px) {
     .cover {
         width: 320px;

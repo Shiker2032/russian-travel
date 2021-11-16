@@ -5,6 +5,7 @@
     font-size: 54px;
     line-height: 58px;
 }
+
 @media (max-width: 767px) {
     .intro__title {
         font-weight: 900;

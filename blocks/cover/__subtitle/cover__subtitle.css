@@ -8,6 +8,7 @@
     font-size: 18px;
     line-height: 22px;
 }
+
 @media (max-width: 767px) {
     .cover__subtitle {
         width: 288px;

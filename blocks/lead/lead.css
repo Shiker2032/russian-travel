@@ -1,6 +1,6 @@
 .lead {
     display: flex;
-    flex-flow: column; 
+    flex-flow: column;
     margin: 56px 148px 0 148px;
 }
 
@@ -9,6 +9,7 @@
         margin: 48px 48px 0 48px;
     }
 }
+
 @media (max-width: 1023px) {
     .lead {
         margin: 48px 0 0 0;

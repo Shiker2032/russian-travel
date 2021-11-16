@@ -10,6 +10,7 @@
 .header__lang-link:last-child {
     margin-right: 0;
 }
+
 .header__lang-link_active {
     text-decoration: underline;
 }
