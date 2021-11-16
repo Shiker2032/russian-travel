@@ -1,7 +1,8 @@
 .page {
     margin: 0 auto; 
     box-sizing: border-box;    
-    font-family: "Inter", "Arial", sans-serif;    
+    font-family: "Inter", "Arial", sans-serif;  
+    text-rendering: optimizeLegibility;
     color: white;   
     max-width: 1280px;        
 }
