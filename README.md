@@ -12,3 +12,5 @@
 * HTML
 * CSS
 * В проекте не используются сторониие расширения кроме шрифтов и normalize
+
+Ссылка pages https://shiker2032.github.io/russian-travel/
