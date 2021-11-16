@@ -1,9 +1,8 @@
 .footer__link-list {
     margin: 0;
-    padding: 0 0 24px;
     display: flex;
     align-items: flex-end;
-    padding-bottom: 24px;
+    padding: 0 0 24px;
     list-style: none;
 }
 
