@@ -20,15 +20,8 @@
 }
 
 @font-face {
-    src: url(./fonts/Inter/Inter-Black.ttf) format("ttf");
+    src: url(../fonts/Inter/Inter-Black.woff) format("woff"),
+    url(../fonts/Inter/Inter-Black.woff2) format("woff2");
     font-family: "Inter";
     font-weight: 900;
 }
-
-
-
-
-
-
-
-
