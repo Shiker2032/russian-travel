@@ -1,6 +1,9 @@
 .link-list__item {
     margin-right: 18px;
 }
+.link-list__item:last-child {
+    margin: 0;
+}
 
 @media (max-width: 767px) {
     .link-list__item {

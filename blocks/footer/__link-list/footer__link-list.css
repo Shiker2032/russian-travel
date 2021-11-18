@@ -6,7 +6,7 @@
     list-style: none;
 }
 
-@media (max-width: 797px) {
+@media (max-width: 767px) {
     .footer__link-list {
         width: 158px;
         flex-flow: column;
