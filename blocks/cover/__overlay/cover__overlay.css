@@ -16,6 +16,7 @@
 @media (max-width: 1279px) {
     .cover__overlay {
         min-height: 640px;
+        max-width: 1024px;
     }
 }
 

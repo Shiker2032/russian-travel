@@ -8,7 +8,8 @@
 
 @media (max-width: 767px) {
     .footer__link-list {
-        width: 158px;
+        max-width: 158px;
+        width: 100%;
         flex-flow: column;
         align-items: baseline;
         padding: 0;
