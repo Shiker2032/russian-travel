@@ -10,7 +10,7 @@
 
 @media (max-width: 1279px) {
     .cover {
-        margin: 93px auto;
+        margin: 92px auto;
         max-width: 1024px;
         min-height: 640px;
     }
@@ -20,6 +20,7 @@
     .cover {
         max-width: 768px;
         min-height: 480px;
+        margin: 90px auto 0;
     }
 }
 
