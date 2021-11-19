@@ -7,6 +7,7 @@
 
 @media (max-width: 1279px) {
     .lead {
+        max-width: 924px;
         margin: 48px auto 0;
     }
 }
