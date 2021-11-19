@@ -2,13 +2,29 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin: 0 48px;
-    padding-top: 28px;
+    margin: 28px auto 0;
+    max-width: 1184px;
+
+}
+
+@media (max-width: 1279px) {
+    .header {
+        margin: 48px auto 0;
+        max-width: 928px;
+    }
 }
 
 @media (max-width: 1023px) {
     .header {
-        padding-top: 18px;
-        margin: 0 16px;
+        margin: 28px auto 0;
+        max-width: 720px;
     }
 }
+
+@media (max-width: 767px) {
+    .header {
+        margin: 16px auto 0;
+        max-width: 288px;
+    }
+}
+
