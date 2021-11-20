@@ -38,5 +38,6 @@
         grid-template-columns: 320px;
         column-gap: 0;
         grid-row-gap: 32px;
+        margin: 0 auto 50px;
     }
 }

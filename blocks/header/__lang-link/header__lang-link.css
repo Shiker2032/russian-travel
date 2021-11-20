@@ -13,3 +13,10 @@
 .header__lang-link_active {
     border-bottom: 2px solid white;
 }
+
+@media (max-width: 767px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}

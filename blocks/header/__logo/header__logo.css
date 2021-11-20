@@ -2,3 +2,9 @@
     max-width: 176px;
     object-fit: cover;
 }
+
+@media (max-width: 767px) {
+    .header__logo {
+        max-width: 142px;
+    }
+}
