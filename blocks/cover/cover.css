@@ -1,11 +1,16 @@
 .cover {
     color: white;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
     margin: 93px auto 0;
-    background-image: url(./cover-trains.jpg);
-    background-size: cover;
+    background-image:linear-gradient(rgba(0,0,0,0.0), rgba(42,44,47,0.3)), url("../../images/cover-trains.jpg");
+    background-size: cover;    
     overflow: hidden;
     max-width: 1184px;
     min-height: 740px;
+
 }
 
 @media (max-width: 1279px) {
