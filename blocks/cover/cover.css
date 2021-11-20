@@ -1,21 +1,20 @@
-.cover {
-    color: white;
-    display: flex;
+.cover {   
+    margin: 93px auto 0;    
+    display: flex;    
     flex-flow: column;
     justify-content: center;
-    align-items: center;
-    margin: 93px auto 0;
+    align-items: center;    
     background-image:linear-gradient(rgba(0,0,0,0.0), rgba(42,44,47,0.3)), url("../../images/cover-trains.jpg");
     background-size: cover;    
-    overflow: hidden;
     max-width: 1184px;
-    min-height: 740px;
-
+    width: 100%;
+    min-height: 740px;  
+    color: white;
 }
 
 @media (max-width: 1279px) {
     .cover {
-        margin: 92px auto;
+        margin: 92px auto 0;
         max-width: 1024px;
         min-height: 640px;
     }
