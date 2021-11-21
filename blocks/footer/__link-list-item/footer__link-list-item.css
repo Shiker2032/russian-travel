@@ -1,12 +1,12 @@
-.link-list__item {
+.footer__link-list-item {
     margin-right: 18px;
 }
-.link-list__item:last-child {
+.footer__link-list-item:last-child {
     margin: 0;
 }
 
 @media (max-width: 767px) {
-    .link-list__item {
+    .footer__link-list-item {
         margin: 0 0 32px;
     }
 }
