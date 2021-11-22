@@ -9,7 +9,17 @@
   <component name="ChangeListManager">
     <list default="true" id="fe33b828-8afc-4f42-9e3c-f8ff3deca6dc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/lead/__image/lead__image.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/lead/__image/lead__image.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/cover/__link/cover__link.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/cover/__link/cover__link.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/cover/cover.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/cover/cover.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/footer/__copyright/footer__copyright.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/footer/__copyright/footer__copyright.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/footer/__link-list-item/footer__link-list-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/footer/__link-list-item/footer__link-list-item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/footer/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/intro/intro.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/intro/intro.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/lead/__caption/lead__caption.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/lead/__caption/lead__caption.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/photo-grid/__item/photo-grid__item.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/photo-grid/__item/photo-grid__item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/places/__place/__link/place__link.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/places/__place/__link/place__link.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/places/__place/__title/place__title.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/places/__place/__title/place__title.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/places/__place/__url-heading/place__url-heading.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/places/__place/__url-heading/place__url-heading.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +79,8 @@
       <workItem from="1637212952254" duration="5946000" />
       <workItem from="1637314279785" duration="25176000" />
       <workItem from="1637422481292" duration="16000" />
+      <workItem from="1637597143964" duration="143000" />
+      <workItem from="1637597351687" duration="7000" />
     </task>
     <servers />
   </component>

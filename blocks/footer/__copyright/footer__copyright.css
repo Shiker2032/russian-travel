@@ -2,10 +2,12 @@
     margin: 0;
     font-size: 14px;
     line-height: 16px;
+    width: inherit;
 }
 
-@media(max-width: 767px) {
+@media (max-width: 767px) {
     .footer__copyright {
         margin: 48px auto 0;
+
     }
 }

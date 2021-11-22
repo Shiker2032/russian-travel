@@ -1,4 +1,13 @@
 .cover__link {
     text-decoration: none;
-    color: inherit;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(42, 44, 47, 0.3)), url("../../../images/cover-trains.jpg");
+    background-size: cover;
+    max-width: 1184px;
+    width: 100%;
+    min-height: inherit;
+    color: white;
 }

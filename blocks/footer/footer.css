@@ -10,6 +10,7 @@
         max-width: 928px;
     }
 }
+
 @media (max-width: 1023px) {
     .footer {
         max-width: 720px;
@@ -19,9 +20,9 @@
 
 @media (max-width: 767px) {
     .footer {
-        max-width: 186px;
+        max-width: 290px;
         width: 100%;
         flex-flow: column;
-        margin: 64px 118px 0 16px;
-        }
+        margin: 64px auto 0;
+    }
 }

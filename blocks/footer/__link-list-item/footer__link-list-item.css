@@ -1,6 +1,7 @@
 .footer__link-list-item {
     margin-right: 18px;
 }
+
 .footer__link-list-item:last-child {
     margin: 0;
 }
