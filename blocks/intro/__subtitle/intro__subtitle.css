@@ -1,6 +1,7 @@
 .intro__subtitle {
     margin: 40px 0 0 0;
-    max-width: 100%;
+    max-width: 690px;
+    width: 100%;
     height: min-content;
     font-weight: normal;
     font-size: 16px;
