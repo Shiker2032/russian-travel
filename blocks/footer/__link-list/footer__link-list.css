@@ -6,12 +6,9 @@
     list-style: none;
 }
 
-
 @media (max-width: 767px) {
-    .footer__link-list {
-        max-width: 158px;
-        width: 100%;
-        flex-flow: column;
+    .footer__link-list {       
+        flex-direction: column;
         align-items: baseline;
         padding: 0;
     }
