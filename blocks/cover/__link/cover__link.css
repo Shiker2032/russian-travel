@@ -11,3 +11,7 @@
     min-height: inherit;
     color: white;
 }
+
+.cover__link:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(42, 44, 47, 0.8)), url("../../../images/cover-trains.jpg");
+}
