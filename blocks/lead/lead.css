@@ -1,19 +1,13 @@
 .lead {
-    display: flex;
-    flex-flow: column;
-    max-width: 984px;
-    margin: 56px auto 0;
+  display: flex;
+  flex-flow: column;
+  max-width: 984px;
+  margin: 56px auto 0;
 }
 
 @media (max-width: 1279px) {
-    .lead {
-        max-width: 924px;
-        margin: 48px auto 0;
-    }
-}
-
-@media (max-width: 1023px) {
-    .lead {
-        margin: 48px 0 0 0;
-    }
+  .lead {
+    max-width: 924px;
+    margin: 48px auto 0;
+  }
 }
